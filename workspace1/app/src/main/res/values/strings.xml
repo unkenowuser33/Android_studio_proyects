@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practica_t1</string>
+    <string name="rawLeft">⟵</string>
+    <string name="buscar">Buscar...</string>
+    <string name="VU">Verifica tu <font color="#FF8000">ubicación</font></string>
+    <string name="Av1">Av. Brazil 5515, SJ</string>
+</resources>

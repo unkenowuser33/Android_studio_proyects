@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ventana_desplegable_bottom">
+
+    <LinearLayout
+        android:id="@+id/infoUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/location_on_24" />
+
+        <RelativeLayout
+            android:id="@+id/layoutEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Av1"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Dp1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/gps_fixed_30" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_confi_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF8400"
+            android:gravity="center"
+            android:text="Confirmar ubicación" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,14 @@
+---------------------
+---- En el workspace1 estan los proyectos:
+	*lvl1_business_2
+	*lvl1_shoppingcart_5
+En aquellos dos proyectos, fueron los primeros con los que practique
+por lo que emularlos no seria tan posible.
+
+---------------------
+---- En el workspace2 estan los proyectos:
+	*lvl1_business_9
+	*lvl1_home_2
+Este primero tambien estaba en fase practica. El segundo proyecto
+ya se puede emular correctamente utilizando un Pixel 4, el archivo
+adicional es parte del lvl1_home_2.

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="49dp"
+                android:src="@drawable/arrowleft_modified" />
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="228dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/border1"
+                android:gravity="center"
+                app:iconifiedByDefault="false"
+                android:layoutDirection="rtl"
+                android:searchIcon="@drawable/baseline_search_24"
+                app:queryBackground="@android:color/transparent"
+                android:textColorHint="@color/black"
+                app:queryHint="@string/Btp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="35dp"
+                android:layout_height="39dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="49dp"
+                android:layout_marginEnd="32dp"
+                android:src="@drawable/canasta_modified" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="112dp"
+                android:background="@drawable/border1"
+                android:gravity="center"
+                android:text="@string/arroz"
+                android:textColor="#747474"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="112dp"
+                android:background="@drawable/border1"
+                android:gravity="center"
+                android:text="@string/cerveza"
+                android:textColor="#747474"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="292dp"
+                android:layout_marginTop="112dp"
+                android:background="@drawable/border1"
+                android:gravity="center"
+                android:text="@string/fruta"
+                android:textColor="#747474"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="112dp"
+                android:background="@drawable/border1"
+                android:gravity="center"
+                android:text="@string/galleta"
+                android:textColor="#747474"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="241dp"
+                android:layout_height="344dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="74dp"
+                android:layout_marginBottom="219dp"
+                app:srcCompat="@drawable/pensativa" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

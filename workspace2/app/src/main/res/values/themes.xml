@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Workspace2" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Workspace2" parent="Base.Theme.Workspace2" />
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/deslizar_dentro_boton</item>
+        <item name="android:windowExitAnimation">@anim/deslizar_fuera_boton</item>
+    </style>
+</resources>
